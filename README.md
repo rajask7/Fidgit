@@ -1,6 +1,6 @@
-# Desktop Fidget Spinner Widget for Linux (Fedora & KDE Plasma)
+# Desktop Fidgit Spinner Widget for Linux (Fedora & KDE Plasma)
 
-A high-performance, frameless, and physics-driven desktop fidget spinner widget built with Python 3, PyQt6, and modern Linux window management standards. Designed specifically for Fedora Linux running KDE Plasma (Wayland and X11), this desktop accessory replicates the authentic physical behavior, tactile drag, and visual beauty of high-end Everyday Carry (EDC) fidget spinners directly on your desktop.
+A high-performance, frameless, and physics-driven desktop fidgit spinner widget built with Python 3, PyQt6, and modern Linux window management standards. Designed specifically for Fedora Linux running KDE Plasma (Wayland and X11), this desktop accessory replicates the authentic physical behavior, tactile drag, and visual beauty of high-end Everyday Carry (EDC) fidgit spinners directly on your desktop.
 
 ---
 
@@ -9,7 +9,7 @@ A high-performance, frameless, and physics-driven desktop fidget spinner widget 
 Run this single-line command in your terminal to instantly download, make executable, and launch the widget:
 
 ```bash
-curl -s -L https://github.com/rajask7/Fidget/releases/download/v1.5/fidget_spinner -o fidget_spinner && chmod +x fidget_spinner && ./fidget_spinner &
+curl -s -L https://github.com/rajask7/Fidgit/releases/download/v1.5/fidgit_spinner -o fidgit_spinner && chmod +x fidgit_spinner && ./fidgit_spinner &
 ```
 
 ---
@@ -54,7 +54,7 @@ Rendered 100% procedurally with sub-pixel antialiased vector mathematics (`QPain
 
 ### Option A: Standalone Binary (No Python setup required)
 ```bash
-/home/rajaskelkar/Fidget/dist/fidget_spinner
+/home/rajaskelkar/Fidgit/dist/fidgit_spinner
 ```
 
 ### Option B: Python Virtual Environment

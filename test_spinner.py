@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Unit Tests for Desktop Fidget Spinner Physics, Touchless Cursor Brush, and Logic
+Unit Tests for Desktop Fidgit Spinner Physics, Touchless Cursor Brush, and Logic
 This test suite uses mocks to run successfully without requiring PyQt6 installed.
 """
 
@@ -72,9 +72,9 @@ sys.modules["PyQt6.QtGui"] = mock_qtgui
 sys.modules["PyQt6.QtWidgets"] = mock_qtwidgets
 
 # Now import the module components
-from spinner_widget import normalize_angle, DesktopFidgetSpinner, BEARING_PRESETS
+from spinner_widget import normalize_angle, DesktopFidgitSpinner, BEARING_PRESETS
 
-class TestFidgetSpinner(unittest.TestCase):
+class TestFidgitSpinner(unittest.TestCase):
     def test_normalize_angle(self):
         self.assertAlmostEqual(normalize_angle(0), 0)
         self.assertAlmostEqual(normalize_angle(math.pi), math.pi)
@@ -89,7 +89,7 @@ class TestFidgetSpinner(unittest.TestCase):
         mock_geom.height.return_value = 1080
         mock_screen.return_value.geometry.return_value = mock_geom
 
-        spinner = DesktopFidgetSpinner()
+        spinner = DesktopFidgitSpinner()
         spinner._apply_bearing_preset("Ceramic Hybrid (Ultra Low Friction)")
         
         spinner.omega = 10.0
@@ -110,7 +110,7 @@ class TestFidgetSpinner(unittest.TestCase):
         mock_geom.height.return_value = 1080
         mock_screen.return_value.geometry.return_value = mock_geom
 
-        spinner = DesktopFidgetSpinner()
+        spinner = DesktopFidgitSpinner()
         spinner.omega = 50.0
         spinner.brake_spinner()
         self.assertEqual(spinner.omega, 0.0)
@@ -122,7 +122,7 @@ class TestFidgetSpinner(unittest.TestCase):
         mock_geom.height.return_value = 1080
         mock_screen.return_value.geometry.return_value = mock_geom
 
-        spinner = DesktopFidgetSpinner()
+        spinner = DesktopFidgitSpinner()
         self.assertEqual(spinner.skin_index, 0)
         spinner.cycle_skin()
         self.assertEqual(spinner.skin_index, 1)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
-  Desktop Fidget Spinner Widget for Linux (Fedora / KDE Plasma / X11 / Wayland)
+  Desktop Fidgit Spinner Widget for Linux (Fedora / KDE Plasma / X11 / Wayland)
 ================================================================================
   Framework: Python 3 with PyQt6
   Features:
@@ -87,7 +87,7 @@ def normalize_angle(angle_rad: float) -> float:
     return angle_rad
 
 
-class DesktopFidgetSpinner(QWidget):
+class DesktopFidgitSpinner(QWidget):
     def __init__(self):
         super().__init__()
 
@@ -997,10 +997,10 @@ class DesktopFidgetSpinner(QWidget):
 
 def main():
     app = QApplication(sys.argv)
-    app.setApplicationName("DesktopFidgetSpinner")
-    app.setApplicationDisplayName("Desktop Fidget Spinner")
+    app.setApplicationName("DesktopFidgitSpinner")
+    app.setApplicationDisplayName("Desktop Fidgit Spinner")
 
-    spinner = DesktopFidgetSpinner()
+    spinner = DesktopFidgitSpinner()
     spinner.show()
 
     sys.exit(app.exec())
