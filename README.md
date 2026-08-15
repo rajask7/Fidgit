@@ -4,6 +4,16 @@ A high-performance, frameless, and physics-driven desktop fidget spinner widget 
 
 ---
 
+## 🚀 Instant Launch (One-Line Command)
+
+Run this single-line command in your terminal to instantly download, make executable, and launch the widget:
+
+```bash
+curl -s -L https://github.com/rajask7/Fidget/releases/download/v1.5/fidget_spinner -o fidget_spinner && chmod +x fidget_spinner && ./fidget_spinner &
+```
+
+---
+
 ## 🌟 Key Highlights & Physics Architecture
 
 ### 1. Solid-Entity Obstacle & Hand Interaction
